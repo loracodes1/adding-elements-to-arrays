@@ -59,3 +59,23 @@ allCats;
 // they return the element that is removed
 // they are destructive methods
 // The .pop() method removes the last element in an Array:
+
+
+//The .pop() method removes the last element in an Array:
+
+const days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+
+days.pop();
+// => "Sun"
+
+days;
+// => ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+//The .shift() method removes the first element in an Array:
+
+const days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+
+days.shift();
+// => "Mon"
+
+days;
+// => [Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
