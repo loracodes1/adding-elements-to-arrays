@@ -49,3 +49,13 @@ coolCats;
 
 allCats;
 // => ["Hobbes", "Felix", "Tom", "Garfield"]
+
+//REMOVING ELEMENTS FROM AN ARRAY
+// .pop() and .shift()
+// As with .push() and .unshift(), these two methods work in the same way:
+
+// they don't take any arguments
+// they remove a single element
+// they return the element that is removed
+// they are destructive methods
+// The .pop() method removes the last element in an Array:
