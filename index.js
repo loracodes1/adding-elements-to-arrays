@@ -15,3 +15,10 @@ cities.unshift("Boston", "Chicago");
 
 cities;
 // => ["Boston", "Chicago", "New York", "San Francisco"]  
+
+const coolCities = ["New York", "San Francisco"];
+
+const copyOfCoolCities = [...coolCities];
+
+copyOfCoolCities;
+//=> ["New York", "San Francisco"]
