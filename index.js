@@ -39,3 +39,13 @@ coolCitiies;
 
 allCitiies;
 // => ["Los Angeles", "New York", "San Francisco"]
+
+const coolCats = ["Hobbes", "Felix", "Tom"];
+
+const allCats = [...coolCats, "Garfield"];
+
+coolCats;
+// => ["Hobbes", "Felix", "Tom"]
+
+allCats;
+// => ["Hobbes", "Felix", "Tom", "Garfield"]
